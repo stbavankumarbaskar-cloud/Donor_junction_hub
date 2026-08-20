@@ -6,7 +6,9 @@
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "backend": "node server.js",
+    "php-server": "php -S 0.0.0.0:8000 -t ."
   },
   "dependencies": {
     "@expo/vector-icons": "^15.1.1",

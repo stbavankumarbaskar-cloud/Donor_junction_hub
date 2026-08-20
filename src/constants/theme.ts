@@ -44,8 +44,8 @@ const webHost = getWebHost();
 
 export const API_URL =
   Platform.OS === 'web'
-    ? `http://${webHost}/Donarjunction/backend-full`
-    : `http://${activeIp}/Donarjunction/backend-full`;
+    ? `http://${webHost}:8000/backend`
+    : `http://${activeIp}:8000/backend`;
 
 if (Platform.OS === 'web') {
   console.log('Hub web backend API_URL:', API_URL);
